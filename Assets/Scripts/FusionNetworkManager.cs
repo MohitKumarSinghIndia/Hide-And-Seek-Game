@@ -11,7 +11,7 @@ public class FusionNetworkManager : MonoBehaviour
     private NetworkRunner networkRunnerInstance;
 
     [Header("Scene Management")]
-    public string gameSceneName = "GameScene";
+    public string gameSceneName = "Lobby";
 
     [Header("Callbacks")]
     public NetworkPlayerSpawner playerSpawner; // Add this in the Inspector
